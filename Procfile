@@ -1,1 +1,1 @@
-worker: python TimerTR.py
+worker: python TimerTr.py
