@@ -34,7 +34,7 @@ async def startTR(dic, channel, guild):
     for i in dic:
         content1 += str(i) + " -=> " + str(int((dic[i] - datetime.datetime.utcnow()).seconds / 60)) + "m" + str(int((dic[i] - datetime.datetime.utcnow()).seconds % 60)) + "s" + "\n"
     id = await channel.send("```" + content1 + "```")
-    while True:
+    while True :
         content1 = ""
         needpop = 0
         await asyncio.sleep(1)
@@ -65,4 +65,4 @@ async def on_message(message):
             dic[stuff[0][-2:]] = message.created_at + datetime.timedelta(seconds=findtime(stuff[1]) - 1)
         await startTR(dic, message.channel, message.guild)
         return 0
-    client.run(NzU5ODA3NTUzOTY5MzI0MTEz.X3C37Q.yjXUucbZn5wQRkZ1
+    client.run(NzU5ODA3NTUzOTY5MzI0MTEz.X3C37Q.yjXUucbZn5wQRkZ1-2VT9XmXITs)
