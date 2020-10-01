@@ -65,4 +65,4 @@ async def on_message(message):
             dic[stuff[0][-2:]] = message.created_at + datetime.timedelta(seconds=findtime(stuff[1]) - 1)
         await startTR(dic, message.channel, message.guild)
         return 0
-    client.run(NzU5ODA3NTUzOTY5MzI0MTEz.X3C37Q.yjXUucbZn5wQRkZ1-2VT9XmXITs)
+    client.run(NzU5ODA3NTUzOTY5MzI0MTEz.X3C37Q.hofBuUp0sW589Ul6sTjxh1UAXYc-2VT9XmXITs)
