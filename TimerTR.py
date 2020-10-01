@@ -47,7 +47,7 @@ async def startTR(dic, channel, guild):
             dic.pop(needpop)
         if(content1 == ""):
             try:
-                await id.edit(content=" Utilise ``>tr t`` pour activer le timer encore")
+                await id.edit(content=" Utilise ``>tr t`` pour activer le timer ")
                 return 0
             except discord.NotFound:
                 return 0
