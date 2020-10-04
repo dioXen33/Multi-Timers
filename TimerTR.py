@@ -1,7 +1,7 @@
 import os
 
 import discord
-import asynchio
+import asyncio
 from dotenv import load_dotenv
 
 load_dotenv()
